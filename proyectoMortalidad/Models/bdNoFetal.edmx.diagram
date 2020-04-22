@@ -5,131 +5,132 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="9bc1816fab4c4bb4bede44d5163ae300" Name="Diagram1" ZoomLevel="100">
-        <EntityTypeShape EntityType="nofetal2017Model.A_DEFUN_PREGUNTA" Width="1.5" PointX="0.75" PointY="14.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.AREA_RES_PREGUNTA" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.ASIS_MED_PREGUNTA" Width="1.5" PointX="0.75" PointY="20" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_ANT1_PREGUNTA" Width="1.5" PointX="0.75" PointY="22.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_ANT12_PREGUNTA" Width="1.5" PointX="0.75" PointY="24.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_ANT2_PREGUNTA" Width="1.5" PointX="0.75" PointY="27.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_ANT22_PREGUNTA" Width="1.5" PointX="0.75" PointY="29.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_ANT3_PREGUNTA" Width="1.5" PointX="0.75" PointY="31.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_ANT32_PREGUNTA" Width="1.5" PointX="0.75" PointY="34.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_BAS1_PREGUNTA" Width="1.5" PointX="0.75" PointY="36.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_DIR1_PREGUNTA" Width="1.5" PointX="0.75" PointY="38.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_DIR12_PREGUNTA" Width="1.5" PointX="0.75" PointY="41.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_MCM1_PREGUNTA" Width="1.5" PointX="0.75" PointY="43.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_MUERTE_PREGUNTA" Width="1.5" PointX="0.75" PointY="45.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_MUERTEB_PREGUNTA" Width="1.5" PointX="0.75" PointY="48.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_MUERTEC_PREGUNTA" Width="1.5" PointX="0.75" PointY="50.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_MUERTED_PREGUNTA" Width="1.5" PointX="0.75" PointY="52.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_MUERTEE_PREGUNTA" Width="1.5" PointX="0.75" PointY="55.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_PAT1_PREGUNTA" Width="1.5" PointX="0.75" PointY="57.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.C_PAT2_PREGUNTA" Width="1.5" PointX="0.75" PointY="59.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.CAU_HOMOL_PREGUNTA" Width="1.5" PointX="0.75" PointY="62.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.CAUSA_666_PREGUNTA" Width="1.5" PointX="0.75" PointY="65" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.COD_DPTO_PREGUNTA" Width="1.5" PointX="0.75" PointY="67.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.COD_MUNIC_PREGUNTA" Width="1.5" PointX="0.75" PointY="69.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.CODMUNOC_PREGUNTA" Width="1.5" PointX="0.75" PointY="72.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.CODMUNRE_PREGUNTA" Width="1.5" PointX="0.75" PointY="74.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.CODOCUR_PREGUNTA" Width="1.5" PointX="0.75" PointY="76.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.CODPRES_PREGUNTA" Width="1.5" PointX="0.75" PointY="79.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.CODPTORE_PREGUNTA" Width="1.5" PointX="0.75" PointY="81.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.CONS_EXP_PREGUNTA" Width="1.5" PointX="0.75" PointY="84" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.EDAD_MADRE_PREGUNTA" Width="1.5" PointX="0.75" PointY="86.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.EMB_FAL_PREGUNTA" Width="1.5" PointX="0.75" PointY="88.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.EMB_MES_PREGUNTA" Width="1.5" PointX="0.75" PointY="91" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.EMB_SEM_PREGUNTA" Width="1.5" PointX="0.75" PointY="93.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.EST_CIVIL_PREGUNTA" Width="1.5" PointX="0.75" PointY="95.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.EST_CIVM_PREGUNTA" Width="1.5" PointX="0.75" PointY="98" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.GRU_ED1_PREGUNTA" Width="1.5" PointX="0.75" PointY="100.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.GRU_ED2_PREGUNTA" Width="1.5" PointX="0.75" PointY="102.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.HORA_PREGUNTA" Width="1.5" PointX="0.75" PointY="105" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.IDADMISALU_PREGUNTA" Width="1.5" PointX="0.75" PointY="107.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.IDPERTET_PREGUNTA" Width="1.5" PointX="0.75" PointY="109.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.IDPROFCER_PREGUNTA" Width="1.5" PointX="0.75" PointY="112.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.MAN_MUER_PREGUNTA" Width="1.5" PointX="0.75" PointY="114.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.MES_PREGUNTA" Width="1.5" PointX="0.75" PointY="116.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.MINUTOS_PREGUNTA" Width="1.5" PointX="0.75" PointY="119.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.MU_PARTO_PREGUNTA" Width="1.5" PointX="0.75" PointY="121.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.MUERTEPORO_PREGUNTA" Width="1.5" PointX="0.75" PointY="123.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.N_HIJOSM_PREGUNTA" Width="1.5" PointX="0.75" PointY="126.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.N_HIJOSV_PREGUNTA" Width="1.5" PointX="0.75" PointY="128.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.NIV_EDUM_PREGUNTA" Width="1.5" PointX="0.75" PointY="130.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.NIVEL_EDU_PREGUNTA" Width="1.5" PointX="0.75" PointY="133.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.PESO_NAC_PREGUNTA" Width="1.5" PointX="0.75" PointY="135.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.PMAN_MUER_PREGUNTA" Width="1.5" PointX="0.75" PointY="137.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.SEG_SOCIAL_PREGUNTA" Width="1.5" PointX="0.75" PointY="140.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.SEXO_PREGUNTA" Width="1.5" PointX="0.75" PointY="142.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.SIMUERTEPO_PREGUNTA" Width="1.5" PointX="0.75" PointY="144.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.SIT_DEFUN_PREGUNTA" Width="1.5" PointX="0.75" PointY="147.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.T_GES_PREGUNTA" Width="1.5" PointX="0.75" PointY="149.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.T_PARTO_PREGUNTA" Width="1.5" PointX="0.75" PointY="152" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.TIPO_EMB_PREGUNTA" Width="1.5" PointX="0.75" PointY="154.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.ULTCURFAL_PREGUNTA" Width="1.5" PointX="0.75" PointY="156.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.ULTCURMAD_PREGUNTA" Width="1.5" PointX="0.75" PointY="159" IsExpanded="true" />
-        <EntityTypeShape EntityType="nofetal2017Model.Variable" Width="1.5" PointX="3" PointY="2.125" IsExpanded="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_A_DEFUN_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_AREA_RES_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_ASIS_MED_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_ANT1_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_ANT12_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_ANT2_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_ANT22_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_ANT3_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_ANT32_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_BAS1_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_DIR1_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_DIR12_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_MCM1_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_MUERTE_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_MUERTEB_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_MUERTEC_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_MUERTED_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_MUERTEE_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_PAT1_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_C_PAT2_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_CAU_HOMOL_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_CAUSA_666_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK__Variable__codDpt__1273C1CD" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_COD_MUNIC_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_CODMUNOC_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_CODMUNRE_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_CODOCUR_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_CODPRES_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_CODPTORE_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_CONS_EXP_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_EDAD_MADRE_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_EMB_FAL_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_EMB_MES_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_EMB_SEM_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_EST_CIVIL_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_EST_CIVM_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_GRU_ED1_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_GRU_ED2_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_HORA_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_IDADMISALU_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_IDPERTET_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_IDPROFCER_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_MAN_MUER_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_MES_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_MINUTOS_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_MU_PARTO_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_MUERTEPORO_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_N_HIJOSM_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_N_HIJOSV_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_NIV_EDUM_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_NIVEL_EDU_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_PESO_NAC_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_PMAN_MUER_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_SEG_SOCIAL_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_SEXO_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_SIMUERTEPO_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_SIT_DEFUN_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_T_GES_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_T_PARTO_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_TIPO_EMB_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_ULTCURFAL_PREGUNTA" ManuallyRouted="false" />
-        <AssociationConnector Association="nofetal2017Model.FK_ULTCURMAD_PREGUNTA" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="nofetal2017Model.A_DEFUN_PREGUNTA" Width="1.5" PointX="0.75" PointY="22.375" />
+        <EntityTypeShape EntityType="nofetal2017Model.AREA_RES_PREGUNTA" Width="1.5" PointX="0.75" PointY="83.625" />
+        <EntityTypeShape EntityType="nofetal2017Model.ASIS_MED_PREGUNTA" Width="1.5" PointX="0.75" PointY="95.25" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_ANT1_PREGUNTA" Width="1.5" PointX="0.75" PointY="156.625" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_ANT12_PREGUNTA" Width="1.5" PointX="0.75" PointY="102.375" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_ANT2_PREGUNTA" Width="1.5" PointX="0.75" PointY="38.75" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_ANT22_PREGUNTA" Width="1.5" PointX="0.75" PointY="27.125" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_ANT3_PREGUNTA" Width="1.5" PointX="0.75" PointY="69.5" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_ANT32_PREGUNTA" Width="1.5" PointX="0.75" PointY="17.75" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_BAS1_PREGUNTA" Width="1.5" PointX="0.75" PointY="130.875" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_DIR1_PREGUNTA" Width="1.5" PointX="0.75" PointY="142.625" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_DIR12_PREGUNTA" Width="1.5" PointX="0.75" PointY="71.875" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_MCM1_PREGUNTA" Width="1.5" PointX="0.75" PointY="123.875" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_MUERTE_PREGUNTA" Width="1.5" PointX="0.75" PointY="14.5" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_MUERTEB_PREGUNTA" Width="1.5" PointX="0.75" PointY="116.375" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_MUERTEC_PREGUNTA" Width="1.5" PointX="0.75" PointY="43.5" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_MUERTED_PREGUNTA" Width="1.5" PointX="0.75" PointY="107" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_MUERTEE_PREGUNTA" Width="1.5" PointX="0.75" PointY="64.75" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_PAT1_PREGUNTA" Width="1.5" PointX="0.75" PointY="128.5" />
+        <EntityTypeShape EntityType="nofetal2017Model.C_PAT2_PREGUNTA" Width="1.5" PointX="0.75" PointY="74.125" />
+        <EntityTypeShape EntityType="nofetal2017Model.CAU_HOMOL_PREGUNTA" Width="1.5" PointX="0.75" PointY="121.125" />
+        <EntityTypeShape EntityType="nofetal2017Model.CAUSA_666_PREGUNTA" Width="1.5" PointX="0.75" PointY="59.875" />
+        <EntityTypeShape EntityType="nofetal2017Model.COD_DPTO_PREGUNTA" Width="1.5" PointX="0.75" PointY="109.375" />
+        <EntityTypeShape EntityType="nofetal2017Model.COD_MUNIC_PREGUNTA" Width="1.5" PointX="0.75" PointY="57.625" />
+        <EntityTypeShape EntityType="nofetal2017Model.CODMUNOC_PREGUNTA" Width="1.5" PointX="0.75" PointY="67.125" />
+        <EntityTypeShape EntityType="nofetal2017Model.CODMUNRE_PREGUNTA" Width="1.5" PointX="0.75" PointY="114" />
+        <EntityTypeShape EntityType="nofetal2017Model.CODOCUR_PREGUNTA" Width="1.5" PointX="0.75" PointY="76.5" />
+        <EntityTypeShape EntityType="nofetal2017Model.CODPRES_PREGUNTA" Width="1.5" PointX="0.75" PointY="34.125" />
+        <EntityTypeShape EntityType="nofetal2017Model.CODPTORE_PREGUNTA" Width="1.5" PointX="0.75" PointY="133.25" />
+        <EntityTypeShape EntityType="nofetal2017Model.CONS_EXP_PREGUNTA" Width="1.5" PointX="0.75" PointY="126.125" />
+        <EntityTypeShape EntityType="nofetal2017Model.EDAD_MADRE_PREGUNTA" Width="1.5" PointX="0.75" PointY="111.75" />
+        <EntityTypeShape EntityType="nofetal2017Model.EMB_FAL_PREGUNTA" Width="1.5" PointX="0.75" PointY="97.625" />
+        <EntityTypeShape EntityType="nofetal2017Model.EMB_MES_PREGUNTA" Width="1.5" PointX="0.75" PointY="24.75" />
+        <EntityTypeShape EntityType="nofetal2017Model.EMB_SEM_PREGUNTA" Width="1.5" PointX="0.75" PointY="100" />
+        <EntityTypeShape EntityType="nofetal2017Model.EST_CIVIL_PREGUNTA" Width="1.5" PointX="0.75" PointY="52.875" />
+        <EntityTypeShape EntityType="nofetal2017Model.EST_CIVM_PREGUNTA" Width="1.5" PointX="0.75" PointY="85.875" />
+        <EntityTypeShape EntityType="nofetal2017Model.GRU_ED1_PREGUNTA" Width="1.5" PointX="0.75" PointY="147.25" />
+        <EntityTypeShape EntityType="nofetal2017Model.GRU_ED2_PREGUNTA" Width="1.5" PointX="0.75" PointY="137.875" />
+        <EntityTypeShape EntityType="nofetal2017Model.HORA_PREGUNTA" Width="1.5" PointX="0.75" PointY="93" />
+        <EntityTypeShape EntityType="nofetal2017Model.IDADMISALU_PREGUNTA" Width="1.5" PointX="0.75" PointY="140.25" />
+        <EntityTypeShape EntityType="nofetal2017Model.IDPERTET_PREGUNTA" Width="1.5" PointX="0.75" PointY="50.5" />
+        <EntityTypeShape EntityType="nofetal2017Model.IDPROFCER_PREGUNTA" Width="1.5" PointX="0.75" PointY="41.125" />
+        <EntityTypeShape EntityType="nofetal2017Model.MAN_MUER_PREGUNTA" Width="1.5" PointX="0.75" PointY="81.25" />
+        <EntityTypeShape EntityType="nofetal2017Model.MES_PREGUNTA" Width="1.5" PointX="0.75" PointY="149.625" />
+        <EntityTypeShape EntityType="nofetal2017Model.MINUTOS_PREGUNTA" Width="1.5" PointX="0.75" PointY="88.25" />
+        <EntityTypeShape EntityType="nofetal2017Model.MU_PARTO_PREGUNTA" Width="1.5" PointX="0.75" PointY="31.75" />
+        <EntityTypeShape EntityType="nofetal2017Model.MUERTEPORO_PREGUNTA" Width="1.5" PointX="0.75" PointY="48.125" />
+        <EntityTypeShape EntityType="nofetal2017Model.N_HIJOSM_PREGUNTA" Width="1.5" PointX="0.75" PointY="78.875" />
+        <EntityTypeShape EntityType="nofetal2017Model.N_HIJOSV_PREGUNTA" Width="1.5" PointX="0.75" PointY="62.5" />
+        <EntityTypeShape EntityType="nofetal2017Model.NIV_EDUM_PREGUNTA" Width="1.5" PointX="0.75" PointY="152" />
+        <EntityTypeShape EntityType="nofetal2017Model.NIVEL_EDU_PREGUNTA" Width="1.5" PointX="0.75" PointY="104.625" />
+        <EntityTypeShape EntityType="nofetal2017Model.PESO_NAC_PREGUNTA" Width="1.5" PointX="0.75" PointY="118.75" />
+        <EntityTypeShape EntityType="nofetal2017Model.PMAN_MUER_PREGUNTA" Width="1.5" PointX="0.75" PointY="36.5" />
+        <EntityTypeShape EntityType="nofetal2017Model.SEG_SOCIAL_PREGUNTA" Width="1.5" PointX="0.75" PointY="20" />
+        <EntityTypeShape EntityType="nofetal2017Model.SEXO_PREGUNTA" Width="1.5" PointX="0.75" PointY="55.25" />
+        <EntityTypeShape EntityType="nofetal2017Model.SIMUERTEPO_PREGUNTA" Width="1.5" PointX="0.75" PointY="90.625" />
+        <EntityTypeShape EntityType="nofetal2017Model.SIT_DEFUN_PREGUNTA" Width="1.5" PointX="0.75" PointY="29.375" />
+        <EntityTypeShape EntityType="nofetal2017Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="nofetal2017Model.T_GES_PREGUNTA" Width="1.5" PointX="0.75" PointY="159" />
+        <EntityTypeShape EntityType="nofetal2017Model.T_PARTO_PREGUNTA" Width="1.5" PointX="0.75" PointY="144.875" />
+        <EntityTypeShape EntityType="nofetal2017Model.TIPO_EMB_PREGUNTA" Width="1.5" PointX="0.75" PointY="154.375" />
+        <EntityTypeShape EntityType="nofetal2017Model.ULTCURFAL_PREGUNTA" Width="1.5" PointX="0.75" PointY="135.5" />
+        <EntityTypeShape EntityType="nofetal2017Model.ULTCURMAD_PREGUNTA" Width="1.5" PointX="0.75" PointY="45.875" />
+        <EntityTypeShape EntityType="nofetal2017Model.Variable" Width="1.5" PointX="3" PointY="2.125" />
+        <AssociationConnector Association="nofetal2017Model.FK_A_DEFUN_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_AREA_RES_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_ASIS_MED_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_ANT1_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_ANT12_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_ANT2_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_ANT22_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_ANT3_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_ANT32_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_BAS1_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_DIR1_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_DIR12_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_MCM1_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_MUERTE_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_MUERTEB_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_MUERTEC_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_MUERTED_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_MUERTEE_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_PAT1_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_C_PAT2_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_CAU_HOMOL_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_CAUSA_666_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK__Variable__codDpt__1273C1CD" />
+        <AssociationConnector Association="nofetal2017Model.FK_COD_MUNIC_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_CODMUNOC_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_CODMUNRE_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_CODOCUR_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_CODPRES_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_CODPTORE_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_CONS_EXP_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_EDAD_MADRE_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_EMB_FAL_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_EMB_MES_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_EMB_SEM_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_EST_CIVIL_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_EST_CIVM_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_GRU_ED1_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_GRU_ED2_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_HORA_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_IDADMISALU_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_IDPERTET_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_IDPROFCER_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_MAN_MUER_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_MES_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_MINUTOS_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_MU_PARTO_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_MUERTEPORO_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_N_HIJOSM_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_N_HIJOSV_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_NIV_EDUM_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_NIVEL_EDU_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_PESO_NAC_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_PMAN_MUER_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_SEG_SOCIAL_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_SEXO_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_SIMUERTEPO_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_SIT_DEFUN_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_T_GES_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_T_PARTO_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_TIPO_EMB_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_ULTCURFAL_PREGUNTA" />
+        <AssociationConnector Association="nofetal2017Model.FK_ULTCURMAD_PREGUNTA" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

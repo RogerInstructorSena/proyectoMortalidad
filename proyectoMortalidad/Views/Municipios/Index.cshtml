@@ -1,0 +1,32 @@
+﻿@model List<proyectoMortalidad.Models.TableViewModels.MunicipiosTVM>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Municipios</h2>
+
+<div class="row">
+
+    <div class="col-lg-12">
+        <table class="table-bordered">
+
+            <tr>
+
+                <th>Identificador</th>
+                <th>Nombre Muncipio</th>
+            </tr>
+
+            @foreach (var oElemento in Model)
+
+            {
+                <tr>
+                    <td>@oElemento.codMunicPreguntaId</td>
+                    <td>@oElemento.codMunicPreguntaNombre</td>
+
+                </tr>
+            }
+
+
+
+        </table>
+

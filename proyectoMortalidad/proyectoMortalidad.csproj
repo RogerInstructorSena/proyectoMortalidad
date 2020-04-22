@@ -150,7 +150,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\DepartamentosController.cs" />
+    <Compile Include="Controllers\GeneroDepMunController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MunicipiosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -340,7 +342,15 @@
     <Compile Include="Models\SIT_DEFUN_PREGUNTA.cs">
       <DependentUpon>bdNoFetal.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\spTodosSexoDepartamentoMunicipio_Result.cs">
+      <DependentUpon>bdNoFetal.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagrams.cs">
+      <DependentUpon>bdNoFetal.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\TableViewModels\DepartamentosTVM.cs" />
+    <Compile Include="Models\TableViewModels\GeneroDepMunTVM.cs" />
+    <Compile Include="Models\TableViewModels\MunicipiosTVM.cs" />
     <Compile Include="Models\TIPO_EMB_PREGUNTA.cs">
       <DependentUpon>bdNoFetal.tt</DependentUpon>
     </Compile>
@@ -415,6 +425,9 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Departamentos\Index.cshtml" />
+    <Content Include="Views\Municipios\Index.cshtml" />
+    <Content Include="Views\GeneroDepMun\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

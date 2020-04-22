@@ -8,7 +8,7 @@ namespace proyectoMortalidad.Models.TableViewModels
     public class DepartamentosTVM
     {
 
-        public int? codDptoPreguntaId { get; set; }
+        public decimal codDptoPreguntaId { get; set; }
         public string codDptoPreguntaNombre { get; set; }
     }
 

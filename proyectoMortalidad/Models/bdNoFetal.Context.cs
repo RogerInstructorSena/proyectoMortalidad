@@ -12,6 +12,8 @@ namespace proyectoMortalidad.Models
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
     public partial class nofetal2017Entities : DbContext
     {
@@ -82,11 +84,17 @@ namespace proyectoMortalidad.Models
         public virtual DbSet<SEXO_PREGUNTA> SEXO_PREGUNTA { get; set; }
         public virtual DbSet<SIMUERTEPO_PREGUNTA> SIMUERTEPO_PREGUNTA { get; set; }
         public virtual DbSet<SIT_DEFUN_PREGUNTA> SIT_DEFUN_PREGUNTA { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<T_GES_PREGUNTA> T_GES_PREGUNTA { get; set; }
         public virtual DbSet<T_PARTO_PREGUNTA> T_PARTO_PREGUNTA { get; set; }
         public virtual DbSet<TIPO_EMB_PREGUNTA> TIPO_EMB_PREGUNTA { get; set; }
         public virtual DbSet<ULTCURFAL_PREGUNTA> ULTCURFAL_PREGUNTA { get; set; }
         public virtual DbSet<ULTCURMAD_PREGUNTA> ULTCURMAD_PREGUNTA { get; set; }
         public virtual DbSet<Variable> Variable { get; set; }
+    
+        public virtual ObjectResult<spTodosSexoDepartamentoMunicipio_Result> spTodosSexoDepartamentoMunicipio()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<spTodosSexoDepartamentoMunicipio_Result>("spTodosSexoDepartamentoMunicipio");
+        }
     }
 }

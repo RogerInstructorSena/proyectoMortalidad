@@ -1,0 +1,36 @@
+﻿@model List<proyectoMortalidad.Models.TableViewModels.GeneroDepMunTVM>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Sexo Por Departamento</h2>
+
+<div class="row">
+
+    <div class="col-lg-12">
+        <table class="table-bordered">
+
+            <tr>
+
+                <th>Departamento</th>
+                <th>Municipio</th>
+                <th>Cantidad</th>
+                <th>Género</th>
+            </tr>
+
+            @foreach (var oElemento in Model)
+
+            {
+                <tr>
+                    <td>@oElemento.codPreguntaNombre</td>
+                    <td>@oElemento.codMunicPreguntaId</td>
+                    <td>@oElemento.sexoPreguntaId</td>
+                    <td>@oElemento.sexoPreguntaNombre</td>
+
+                </tr>
+            }
+
+
+
+        </table>
+

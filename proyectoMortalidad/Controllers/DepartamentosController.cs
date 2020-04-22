@@ -15,13 +15,13 @@ namespace proyectoMortalidad.Controllers
         //Get: Departamentos
         public ActionResult Index()
         {
-            List<DepartamentosTVM> listaDepartamentos = null;
+            List<DepartamentosTVM> listaDepartamentos;
             using (nofetal2017Entities db = new nofetal2017Entities())
             {
                 listaDepartamentos = (from d in db.COD_DPTO_PREGUNTA
                                      select new DepartamentosTVM
                                      {
-                                         codDptoPreguntaId=Convert.ToInt16(d.codDptoPreguntaId),
+                                         codDptoPreguntaId=d.codDptoPreguntaId,
                                          codDptoPreguntaNombre = d.codPreguntaNombre
                                      }).ToList();
 

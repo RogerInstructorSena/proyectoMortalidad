@@ -149,10 +149,13 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ConsultaController.cs" />
     <Compile Include="Controllers\DepartamentosController.cs" />
+    <Compile Include="Controllers\EmpleadosController.cs" />
     <Compile Include="Controllers\GeneroDepMunController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MunicipiosController.cs" />
+    <Compile Include="Controllers\TipoMuerteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -306,6 +309,7 @@
     <Compile Include="Models\MINUTOS_PREGUNTA.cs">
       <DependentUpon>bdNoFetal.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\ModeloDatos.cs" />
     <Compile Include="Models\MUERTEPORO_PREGUNTA.cs">
       <DependentUpon>bdNoFetal.tt</DependentUpon>
     </Compile>
@@ -348,9 +352,11 @@
     <Compile Include="Models\sysdiagrams.cs">
       <DependentUpon>bdNoFetal.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\TableViewModels\ConsultaTVM.cs" />
     <Compile Include="Models\TableViewModels\DepartamentosTVM.cs" />
     <Compile Include="Models\TableViewModels\GeneroDepMunTVM.cs" />
     <Compile Include="Models\TableViewModels\MunicipiosTVM.cs" />
+    <Compile Include="Models\TableViewModels\TipoMuerteTVM.cs" />
     <Compile Include="Models\TIPO_EMB_PREGUNTA.cs">
       <DependentUpon>bdNoFetal.tt</DependentUpon>
     </Compile>
@@ -400,6 +406,7 @@
     <Content Include="Models\bdNoFetal.edmx.diagram">
       <DependentUpon>bdNoFetal.edmx</DependentUpon>
     </Content>
+    <Content Include="ClassDiagram1.cd" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -428,6 +435,9 @@
     <Content Include="Views\Departamentos\Index.cshtml" />
     <Content Include="Views\Municipios\Index.cshtml" />
     <Content Include="Views\GeneroDepMun\Index.cshtml" />
+    <Content Include="Views\TipoMuerte\Index.cshtml" />
+    <Content Include="Views\Consulta\Index.cshtml" />
+    <Content Include="Views\Empleados\MultiplesObjetosVistas.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

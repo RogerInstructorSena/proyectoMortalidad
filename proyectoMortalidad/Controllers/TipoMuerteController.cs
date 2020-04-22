@@ -1,5 +1,4 @@
 ﻿using proyectoMortalidad.Models;
-using proyectoMortalidad.Models.TableViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,22 +7,22 @@ using System.Web.Mvc;
 
 namespace proyectoMortalidad.Controllers
 {
-    public class GeneroDepMunController : Controller
+    public class TipoMuerteController : Controller
     {
-        // GET: GeneroDepMun
+        // GET: TipoMuerte
         public ActionResult Index()
         {
-            List<Models.TableViewModels.GeneroDepMunTVM> listaGeneroDepMun;
+            List<Models.TableViewModels.TipoMuerteTVM> listaTipoMuerte;
             using (nofetal2017Entities db = new nofetal2017Entities())
             {
                 var dataContext = new nofetal2017Entities();
                 dataContext.Database.CommandTimeout = 300; // Timeout en hardcode :( 
 
-                listaGeneroDepMun = db.Database.SqlQuery<GeneroDepMunTVM>("spTodosSexoDepartamentoMunicipio").ToList();
+                listaTipoMuerte = db.Database.SqlQuery<Models.TableViewModels.TipoMuerteTVM>("spTipoMuerte").ToList();
 
 
             }
-            return View(listaGeneroDepMun);
+            return View(listaTipoMuerte);
         }
     }
-    }
+}

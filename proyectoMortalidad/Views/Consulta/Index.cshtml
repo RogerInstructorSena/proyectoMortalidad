@@ -1,0 +1,33 @@
+﻿@model List<proyectoMortalidad.Models.TableViewModels.ConsultaTVM>
+
+
+
+@{
+    ViewBag.Title = "Index";
+    
+}
+
+<h2>Consulta</h2>
+<FORM>
+    <label for="nombre">Tipo De Muerte: </label><br />
+    <select>
+        @foreach (var oElemento in Model)
+        {
+            <option value='@oElemento.cBas1PreguntaId'>@oElemento.cBas1PreguntaNombre</option>
+        }
+    </select><br /><br />
+
+    <label for="nombre">Departamento: </label><br />
+    <select>
+        @foreach (var oElemento in Model)
+        {
+            <option value='@oElemento.codDptoPreguntaId'>@oElemento.codDptoPreguntaNombre</option>
+        }
+    </select>
+  
+</FORM>
+
+
+
+  
+

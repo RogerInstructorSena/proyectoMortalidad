@@ -22,7 +22,11 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
+                    <li>@Html.ActionLink("Consulta", "Index", "Consulta")</li>
+                    <li>@Html.ActionLink("Departamentos", "Index", "Departamentos")</li>
+                    <li>@Html.ActionLink("Municipios", "Index", "Municipios")</li>
+                    <li>@Html.ActionLink("Género Municipios", "Index", "GeneroDepMun")</li>
+                    <li>@Html.ActionLink("Tipo Muerte", "Index", "TipoMuerte")</li>
                     <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
                 </ul>
             </div>
@@ -32,7 +36,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Mi aplicación ASP.NET</p>
+            <p>&copy; @DateTime.Now.Year - Proyecto Mortalidad</p>
         </footer>
     </div>
 

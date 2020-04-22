@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "MultiplesObjetosVistas";
+}
+
+@model List<proyectoMortalidad.Models.TableViewModels.DepartamentosTVM>
+
+@{
+    //LENGUAJE DE SERVIDOR C#
+    List<proyectoMortalidad.Models.TableViewModels.TipoMuerteTVM> listadept = ViewBag.Departamentos;
+}
+<h2>Multiples Objetos Vistas</h2>
+
+<form method="post">
+    <label>Departamentos: </label>
+    <select name="deptno" class="form-control">
+        @foreach (var dept in listadept)
+        {
+            <option value="@dept.cBas1PreguntaId">
+                @dept.cBas1PreguntaNombre
+            </option>
+        }
+    </select>
+    <br />
+    <button type="submit" class="btn-danger">
+        Mostrar empleados
+    </button>
+</form>
+
+<hr />
+@if (Model != null)
+{
+    <table border="1">
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <td>@emp.codDptoPreguntaId</td>
+                <td>@emp.codDptoPreguntaNombre</td>
+              
+            </tr>
+        }
+    </table>
+}

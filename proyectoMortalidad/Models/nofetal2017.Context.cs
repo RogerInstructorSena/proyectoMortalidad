@@ -84,13 +84,27 @@ namespace proyectoMortalidad.Models
         public virtual DbSet<SEXO_PREGUNTA> SEXO_PREGUNTA { get; set; }
         public virtual DbSet<SIMUERTEPO_PREGUNTA> SIMUERTEPO_PREGUNTA { get; set; }
         public virtual DbSet<SIT_DEFUN_PREGUNTA> SIT_DEFUN_PREGUNTA { get; set; }
-        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<T_GES_PREGUNTA> T_GES_PREGUNTA { get; set; }
         public virtual DbSet<T_PARTO_PREGUNTA> T_PARTO_PREGUNTA { get; set; }
         public virtual DbSet<TIPO_EMB_PREGUNTA> TIPO_EMB_PREGUNTA { get; set; }
         public virtual DbSet<ULTCURFAL_PREGUNTA> ULTCURFAL_PREGUNTA { get; set; }
         public virtual DbSet<ULTCURMAD_PREGUNTA> ULTCURMAD_PREGUNTA { get; set; }
         public virtual DbSet<Variable> Variable { get; set; }
+    
+        public virtual ObjectResult<spDepartamentos_Result> spDepartamentos()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<spDepartamentos_Result>("spDepartamentos");
+        }
+    
+        public virtual ObjectResult<spTestGenero_Result> spTestGenero()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<spTestGenero_Result>("spTestGenero");
+        }
+    
+        public virtual ObjectResult<spTipoMuerte_Result> spTipoMuerte()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<spTipoMuerte_Result>("spTipoMuerte");
+        }
     
         public virtual ObjectResult<spTodosSexoDepartamentoMunicipio_Result> spTodosSexoDepartamentoMunicipio()
         {

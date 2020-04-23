@@ -11,11 +11,9 @@ namespace proyectoMortalidad.Models
 {
     using System;
     
-    public partial class spTodosSexoDepartamentoMunicipio_Result
+    public partial class spTestGenero_Result
     {
-        public string codDptoPreguntaNombre { get; set; }
-        public decimal codMunicPreguntaId { get; set; }
-        public Nullable<int> sexoPreguntaId { get; set; }
+        public decimal sexoPreguntaId { get; set; }
         public string sexoPreguntaNombre { get; set; }
     }
 }

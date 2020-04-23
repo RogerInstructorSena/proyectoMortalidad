@@ -17,7 +17,7 @@ namespace proyectoMortalidad.Controllers
             using (nofetal2017Entities db = new nofetal2017Entities())
             {
                 var dataContext = new nofetal2017Entities();
-                dataContext.Database.CommandTimeout = 300; // Timeout en hardcode :( 
+                dataContext.Database.CommandTimeout = 3000; // Timeout en hardcode :( 
 
                 listaGeneroDepMun = db.Database.SqlQuery<GeneroDepMunTVM>("spTodosSexoDepartamentoMunicipio").ToList();
 

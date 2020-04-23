@@ -22,7 +22,7 @@ namespace proyectoMortalidad.Controllers
                                      select new DepartamentosTVM
                                      {
                                          codDptoPreguntaId=d.codDptoPreguntaId,
-                                         codDptoPreguntaNombre = d.codPreguntaNombre
+                                         codDptoPreguntaNombre = d.codDptoPreguntaNombre
                                      }).ToList();
 
 

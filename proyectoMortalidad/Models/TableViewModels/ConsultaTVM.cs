@@ -9,8 +9,8 @@ namespace proyectoMortalidad.Models.TableViewModels
     {
         public string cBas1PreguntaId { get; set; }
         public string cBas1PreguntaNombre { get; set; }
-        public decimal codDptoPreguntaId { get; set; }
-        public string codDptoPreguntaNombre { get; set; }
+        public string dId { get; set; }
+        public string dnom { get; set; }
 
     }
 }

@@ -13,36 +13,37 @@ namespace proyectoMortalidad.Controllers
         public ActionResult Index()
         {
             List<Models.TableViewModels.ConsultaTVM> listaConsulta;
-            //List<Models.TableViewModels.DepartamentosTVM> listaConsultaDept;
-            using (nofetal2017Entities db = new nofetal2017Entities())
-            {
-                var dataContext = new nofetal2017Entities();
-                dataContext.Database.CommandTimeout = 300; // Timeout en hardcode :( 
-
-                listaConsulta = db.Database.SqlQuery<Models.TableViewModels.ConsultaTVM>("spTipoMuerte").ToList();
-                //listaConsultaDept = db.Database.SqlQuery<Models.TableViewModels.DepartamentosTVM>("spDepartamentos").ToList();
-
-
-            }
-            return View(listaConsulta);
-            
-        }
-        [HttpPost]
-        public ActionResult Consulta()
-        {
-            //List<Models.TableViewModels.ConsultaTVM> listaConsulta;
             List<Models.TableViewModels.DepartamentosTVM> listaConsultaDept;
             using (nofetal2017Entities db = new nofetal2017Entities())
             {
                 var dataContext = new nofetal2017Entities();
-                dataContext.Database.CommandTimeout = 300; // Timeout en hardcode :( 
+                dataContext.Database.CommandTimeout = 3000; // Timeout en hardcode :( 
 
-                //listaConsulta = db.Database.SqlQuery<Models.TableViewModels.ConsultaTVM>("spTipoMuerte").ToList();
+                listaConsulta = db.Database.SqlQuery<Models.TableViewModels.ConsultaTVM>("spTipoMuerte").ToList();
                 listaConsultaDept = db.Database.SqlQuery<Models.TableViewModels.DepartamentosTVM>("spDepartamentos").ToList();
-                
 
+               
+                ViewBag.Dato1 = "80";
+                ViewBag.Dato = listaConsultaDept.ToArray();
             }
-            return View(listaConsultaDept);
+            return View(listaConsulta);
+            
+        }
+       
+        public ActionResult Consulta()
+        {
+            //List<Models.TableViewModels.ConsultaTVM> listaConsulta;
+            List<Models.TableViewModels.DepartamentosTVM> listaConsultaDept;
+            nofetal2017Entities db = new nofetal2017Entities();
+            var dataContext = new nofetal2017Entities();
+            dataContext.Database.CommandTimeout = 300; // Timeout en hardcode :( 
+
+            //listaConsulta = db.Database.SqlQuery<Models.TableViewModels.ConsultaTVM>("spTipoMuerte").ToList();
+            listaConsultaDept = db.Database.SqlQuery<Models.TableViewModels.DepartamentosTVM>("spDepartamentos").ToList();
+
+            ViewBag.Dato = 50;
+
+            return View();
 
         }
     }

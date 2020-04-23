@@ -12,20 +12,20 @@
 
             <tr>
 
-                <th>Departamento</th>
-                <th>Municipio</th>
-                <th>Cantidad</th>
-                <th>Género</th>
+                <th style="text-align:left">Departamento</th>
+                <th style="text-align:center">Municipio</th>
+                <th style="text-align:center">Cantidad</th>
+                <th style="text-align:center">Género</th>
             </tr>
 
             @foreach (var oElemento in Model)
 
             {
                 <tr>
-                    <td>@oElemento.codPreguntaNombre</td>
-                    <td>@oElemento.codMunicPreguntaId</td>
-                    <td>@oElemento.sexoPreguntaId</td>
-                    <td>@oElemento.sexoPreguntaNombre</td>
+                    <td style="text-align:left">@oElemento.codDptoPreguntaNombre</td>
+                    <td style="text-align:center">@oElemento.codMunicPreguntaId</td>
+                    <td style="text-align:center">@oElemento.sexoPreguntaId</td>
+                    <td style="text-align:center">@oElemento.sexoPreguntaNombre</td>
 
                 </tr>
             }
@@ -34,3 +34,5 @@
 
         </table>
 
+</div>
+</div>

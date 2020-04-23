@@ -21,7 +21,7 @@ namespace proyectoMortalidad.Models
         }
     
         public decimal codDptoPreguntaId { get; set; }
-        public string codPreguntaNombre { get; set; }
+        public string codDptoPreguntaNombre { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Variable> Variable { get; set; }

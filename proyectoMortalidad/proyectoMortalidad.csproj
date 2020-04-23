@@ -160,197 +160,203 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AREA_RES_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ASIS_MED_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\A_DEFUN_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\bdNoFetal.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>bdNoFetal.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\bdNoFetal.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\bdNoFetal.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>bdNoFetal.edmx</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAUSA_666_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAU_HOMOL_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CODMUNOC_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CODMUNRE_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CODOCUR_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CODPRES_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CODPTORE_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\COD_DPTO_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\COD_MUNIC_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CONS_EXP_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_ANT12_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_ANT1_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_ANT22_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_ANT2_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_ANT32_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_ANT3_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_BAS1_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_DIR12_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_DIR1_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_MCM1_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_MUERTEB_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_MUERTEC_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_MUERTED_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_MUERTEE_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_MUERTE_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_PAT1_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\C_PAT2_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\EDAD_MADRE_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\EMB_FAL_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\EMB_MES_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\EMB_SEM_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\EST_CIVIL_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\EST_CIVM_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\GRU_ED1_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\GRU_ED2_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\HORA_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\IDADMISALU_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\IDPERTET_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\IDPROFCER_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\MAN_MUER_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\MES_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\MINUTOS_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ModeloDatos.cs" />
     <Compile Include="Models\MUERTEPORO_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\MU_PARTO_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\NIVEL_EDU_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\NIV_EDUM_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\nofetal2017.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>nofetal2017.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\nofetal2017.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\nofetal2017.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>nofetal2017.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\N_HIJOSM_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\N_HIJOSV_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\PESO_NAC_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\PMAN_MUER_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SEG_SOCIAL_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SEXO_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SIMUERTEPO_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SIT_DEFUN_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\spDepartamentos_Result.cs">
+      <DependentUpon>nofetal2017.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\spTestGenero_Result.cs">
+      <DependentUpon>nofetal2017.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\spTipoMuerte_Result.cs">
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\spTodosSexoDepartamentoMunicipio_Result.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\sysdiagrams.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\TableViewModels\ConsultaTVM.cs" />
     <Compile Include="Models\TableViewModels\DepartamentosTVM.cs" />
@@ -358,22 +364,22 @@
     <Compile Include="Models\TableViewModels\MunicipiosTVM.cs" />
     <Compile Include="Models\TableViewModels\TipoMuerteTVM.cs" />
     <Compile Include="Models\TIPO_EMB_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_GES_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_PARTO_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ULTCURFAL_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ULTCURMAD_PREGUNTA.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Variable.cs">
-      <DependentUpon>bdNoFetal.tt</DependentUpon>
+      <DependentUpon>nofetal2017.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -384,29 +390,29 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\bdNoFetal.Context.tt">
+    <Content Include="Models\nofetal2017.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>bdNoFetal.Context.cs</LastGenOutput>
-      <DependentUpon>bdNoFetal.edmx</DependentUpon>
+      <DependentUpon>nofetal2017.edmx</DependentUpon>
+      <LastGenOutput>nofetal2017.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\bdNoFetal.tt">
+    <Content Include="Models\nofetal2017.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>bdNoFetal.edmx</DependentUpon>
-      <LastGenOutput>bdNoFetal.cs</LastGenOutput>
+      <DependentUpon>nofetal2017.edmx</DependentUpon>
+      <LastGenOutput>nofetal2017.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <EntityDeploy Include="Models\bdNoFetal.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>bdNoFetal.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\bdNoFetal.edmx.diagram">
-      <DependentUpon>bdNoFetal.edmx</DependentUpon>
-    </Content>
     <Content Include="ClassDiagram1.cd" />
+    <EntityDeploy Include="Models\nofetal2017.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>nofetal2017.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\nofetal2017.edmx.diagram">
+      <DependentUpon>nofetal2017.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

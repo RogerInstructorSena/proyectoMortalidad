@@ -23,7 +23,7 @@ namespace proyectoMortalidad.Controllers
                                           codMunicPreguntaNombre = d.codMunicPreguntaNombre
                                       }).ToList();
 
-
+                
             }
             return View(listaMunicipios);
         }

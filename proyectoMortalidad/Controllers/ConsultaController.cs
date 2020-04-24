@@ -23,7 +23,7 @@ namespace proyectoMortalidad.Controllers
                 listaConsultaDept = db.Database.SqlQuery<Models.TableViewModels.DepartamentosTVM>("spDepartamentos").ToList();
 
                
-                ViewBag.Dato1 = "80";
+               
                 ViewBag.Dato = listaConsultaDept.ToArray();
             }
             return View(listaConsulta);

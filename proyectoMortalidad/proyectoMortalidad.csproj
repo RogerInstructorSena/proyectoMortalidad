@@ -154,6 +154,7 @@
     <Compile Include="Controllers\EmpleadosController.cs" />
     <Compile Include="Controllers\GeneroDepMunController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MuertesMensualesController.cs" />
     <Compile Include="Controllers\MunicipiosController.cs" />
     <Compile Include="Controllers\TipoMuerteController.cs" />
     <Compile Include="Global.asax.cs">
@@ -361,6 +362,7 @@
     <Compile Include="Models\TableViewModels\ConsultaTVM.cs" />
     <Compile Include="Models\TableViewModels\DepartamentosTVM.cs" />
     <Compile Include="Models\TableViewModels\GeneroDepMunTVM.cs" />
+    <Compile Include="Models\TableViewModels\MuertesMensualesTVM.cs" />
     <Compile Include="Models\TableViewModels\MunicipiosTVM.cs" />
     <Compile Include="Models\TableViewModels\TipoMuerteTVM.cs" />
     <Compile Include="Models\TIPO_EMB_PREGUNTA.cs">
@@ -444,6 +446,7 @@
     <Content Include="Views\TipoMuerte\Index.cshtml" />
     <Content Include="Views\Consulta\Index.cshtml" />
     <Content Include="Views\Empleados\MultiplesObjetosVistas.cshtml" />
+    <Content Include="Views\MuertesMensuales\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

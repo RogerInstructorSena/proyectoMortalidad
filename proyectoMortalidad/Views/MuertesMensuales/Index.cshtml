@@ -1,0 +1,152 @@
+﻿@model List<proyectoMortalidad.Models.TableViewModels.MuertesMensualesTVM>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Muertes Mensuales</h2>
+<head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    a:link, a:visited, a:hover, a:active {
+        color: #0f0;
+        font-size: 16px;
+    }
+
+    body {
+        background: #eee;
+        font-family: verdana;
+    }
+
+    h1 {
+        color: #c0c;
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    #cabecera {
+        color: #ff9;
+        background-color: #000;
+        padding: 10px;
+    }
+
+    #contenedor {
+        margin: 0 auto;
+        width: -5%;
+    }
+
+    #contenido {
+        background-color: #f4f4f4;
+        float: left;
+        height: 800px;
+        padding: 10px;
+        width: 450px;
+    }
+
+    #menu {
+        background-color: #f4f4f4;
+        float: left;
+        height: 800px;
+        padding: 20px;
+        width: 320px;
+    }
+
+    #pie {
+        background-color: #bbb;
+        clear: both;
+        color: #900;
+        padding: 10px;
+        text-align: center;
+    }
+</style>
+  </head>
+<body>
+    <div id="contenedor">
+        <div id="menu">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <table class="table-bordered">
+
+                        <tr>
+
+
+                            <th style="text-align:center">Mes</th>
+                            <th style="text-align:center">Género</th>
+                            <th style="text-align:center">Cantidad</th>
+
+                        </tr>
+
+                        @foreach (var oElemento in Model)
+
+            {
+                            <tr>
+                                <td style="text-align:left">@oElemento.mesPreguntaNombre</td>
+                                <td style="text-align:center">@oElemento.sexoPreguntaNombre</td>
+                                <td style="text-align:center">@oElemento.sexoPreguntaId</td>
+
+                            </tr>
+                        }
+
+
+
+                    </table>
+
+                </div>
+            </div>
+        </div>
+        <div id="contenido">
+            <head>
+                <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawVisualization);
+
+        var Dato=ViewBag.Dato;
+      function drawVisualization() {
+        // Some raw data (not necessarily accurate)
+        var data = google.visualization.arrayToDataTable([
+            ['Month', 'Indeterminado','Femenino', 'Masculino'],
+          ['Enero',  5,      938,             998],
+          ['Febrero',  4,      1120,             1268],
+          ['Marzo',  5,      1167,             807],
+          ['Abril',  4,      1110,             968],
+          ['Mayo',  7,      691,             1026],
+                    ['Junio',   5,   691,    1026], 
+                    ['Julio', 7, 691, 1026],
+        ]);
+
+        var options = {
+          title : 'Muertes Mensuales',
+          vAxis: {title: 'Muertes'},
+          hAxis: {title: 'Meses'},
+          seriesType: 'bars',
+          series: {5: {type: 'line'}}        };
+
+        var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+                </script>
+            </head>
+            <body>
+                <div id="chart_div" style="width: 900px; height: 500px;"></div>
+            </body>
+        </div>
+       
+    </div>
+</body>
+<div>
+    ___________________________________________________________________________________________________________
+
+</div>
+

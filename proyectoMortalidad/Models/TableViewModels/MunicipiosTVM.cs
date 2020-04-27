@@ -6,6 +6,8 @@ using System.Web;
 namespace proyectoMortalidad.Models.TableViewModels
 {
     public class MunicipiosTVM
+
+//clase para el municipio
     {
        
 
